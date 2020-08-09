@@ -1,0 +1,100 @@
+asset_name,assets,bea_asset_code,delta,major_asset_group,GDS Class Life,GDS Life,ADS Life,System,Method
+Aerospace products and parts manufacturing,33211530576,RD32,0.22,Intellectual Property,7,7,10,GDS,Expensing
+Air transportation,26676130902,SB43,0.0237,Structures,39,39,40,GDS,SL
+Aircraft,2.66E+11,ET30,0.0859,Equipment,5,5,6,GDS,DB 200%
+"All other nonmanufacturing, n.e.c.",86239268421,RD80,0.16,Intellectual Property,5,5,6,GDS,Expensing
+Amusement and recreation,1.63E+11,SB42,0.03,Structures,7,7,10,GDS,DB 200%
+Autos,1.36E+11,ET20,0.3333,Equipment,5,5,5,GDS,DB 200%
+Books,67646468506,AE30,0.121,Intellectual Property,15,15,15,GDS,Economic
+"Chemical manufacturing, ex. pharma and med",54399224281,RD12,0.16,Intellectual Property,5,5,9.5,GDS,Expensing
+Communication,5.79E+11,SU20,0.0237,Structures,15,15,6,GDS,DB 150%
+Communications,4.98E+11,EP20,0.1129,Equipment,7,7,10,GDS,DB 200%
+Communications equipment manufacturing,38393784819,RD22,0.27,Intellectual Property,5,5,6,GDS,Expensing
+Computer systems design and related services,6318822870,RD60,0.36,Intellectual Property,3,3,3,GDS,SL
+Computers and peripheral equipment manufacturing,9567048385,RD21,0.4,Intellectual Property,5,5,6,GDS,Expensing
+Construction tractors,9895536360,EO22,0.1633,Equipment,5,5,4,GDS,DB 200%
+Custom software,1.97E+11,ENS2,0.33,Equipment,3,3,3,GDS,SL
+DASDs,0,EP1C,0.4633,Equipment,5,5,5,GDS,DB 200%
+Educational and vocational,2.83E+11,SB20,0.0188,Structures,39,39,40,GDS,SL
+Electric,1.05E+12,SU30,0.0211,Structures,15,15,19,GDS,DB 150%
+Electric transmission and distribution,4.23E+11,EI60,0.05,Equipment,15,15,30,GDS,DB 150%
+Electro medical instruments,75049828223,EP35,0.135,Equipment,7,7,5,GDS,DB 200%
+Farm,1.10E+11,SN00,0.0239,Structures,20,20,25,GDS,DB 150%
+Farm tractors,24563500689,EO21,0.1452,Equipment,7,7,10,GDS,DB 200%
+Financial and real estate services,6097212064,RD50,0.16,Intellectual Property,5,5,6,GDS,Expensing
+Food and beverage establishments,1.78E+11,SC04,0.0262,Structures,39,39,40,GDS,SL
+Gas,3.66E+11,SU40,0.0751,Structures,5,5,14,GDS,DB 200%
+General industrial equipment,4.76E+11,EI50,0.1072,Equipment,7,7,9,GDS,DB 200%
+Highway and conservation and development,22901934534,SO04,0.0225,Structures,15,15,20,GDS,DB 150%
+Hospitals,3.21E+11,SB31,0.0188,Structures,39,39,40,GDS,SL
+Household appliances,2759304252,EO71,0.165,Equipment,5,5,9,GDS,DB 200%
+Household furniture,8900871527,EO11,0.1375,Equipment,5,5,9,GDS,DB 200%
+Internal combustion engines,12363020746,EI22,0.2063,Equipment,7,7,20,GDS,DB 200%
+Inventories,1.54E+12,INV,0,Inventories,100,100,100,GDS,Inventory
+Land,3.59E+12,LAND,0,Land,100,100,100,GDS,Land
+Light trucks (including utility vehicles),1.68E+11,ET11,0.1725,Equipment,5,5,5,GDS,DB 200%
+Local transit structures,9253082152,SB44,0.0237,Structures,39,39,40,GDS,SL
+Lodging,1.72E+11,SB41,0.0281,Structures,39,39,40,GDS,SL
+Long-lived television programs,1.45E+11,AE20,0.168,Intellectual Property,15,15,15,GDS,Economic
+Mainframes,17413293619,EP1A,0.4633,Equipment,5,5,5,GDS,DB 200%
+Manufacturing,1.10E+12,SI00,0.0314,Structures,39,39,40,GDS,SL
+Medical buildings,1.09E+11,SOO2,0.0247,Structures,39,39,40,GDS,SL
+Metalworking machinery,2.19E+11,EI30,0.1225,Equipment,7,7,14,GDS,DB 200%
+Mining,82930242551,SM02,0.045,Structures,7,7,10,GDS,DB 200%
+Mining and oilfield machinery,84858812351,EO50,0.15,Equipment,7,7,10,GDS,DB 200%
+Mobile structures,4708544169,SOMO,0.0556,Structures,7,7,14,GDS,DB 200%
+Motor vehicles and parts manufacturing,39313793398,RD31,0.31,Intellectual Property,7,7,12,GDS,Expensing
+Multimerchandise shopping,4.24E+11,SC03,0.0262,Structures,39,39,40,GDS,SL
+Music,15406510046,AE40,0.267,Intellectual Property,15,15,15,GDS,Economic
+Navigational and other instruments manufacturing,30814085766,RD24,0.29,Intellectual Property,5,5,6,GDS,Expensing
+Nonelectro medical instruments,1.33E+11,EP34,0.135,Equipment,7,7,9,GDS,DB 200%
+Nonmedical instruments,1.08E+11,EP36,0.135,Equipment,7,7,7,GDS,DB 200%
+Nuclear fuel,6455272413,EI11,0.25,Equipment,5,5,5,GDS,DB 200%
+Office,1.13E+12,SOO1,0.0247,Structures,39,39,40,GDS,SL
+Office and accounting equipment,7268611167,EP12,0.3119,Equipment,5,5,10,GDS,DB 200%
+Other,2.20E+11,EO80,0.1473,Equipment,7,7,9,GDS,DB 200%
+Other agricultural machinery,46750113838,EO30,0.1179,Equipment,7,7,10,GDS,DB 200%
+Other commercial,3.43E+11,SC02,0.0262,Structures,39,39,40,GDS,SL
+"Other computer and electronic manufacturing, n.e.c.",1636224416,RD25,0.4,Intellectual Property,5,5,6,GDS,Expensing
+Other construction machinery,1.24E+11,EO40,0.155,Equipment,5,5,6,GDS,DB 200%
+Other electrical,16821590673,EO72,0.1834,Equipment,7,7,9,GDS,DB 200%
+Other entertainment originals,15413496806,AE50,0.109,Intellectual Property,15,15,15,GDS,Economic
+Other fabricated metals,1.18E+11,EI12,0.0917,Equipment,7,7,15,GDS,DB 200%
+Other furniture,2.02E+11,EO12,0.1179,Equipment,7,7,10,GDS,DB 200%
+Other land transportation,7047759109,SB46,0.0237,Structures,5,5,5,GDS,DB 200%
+Other manufacturing,2.07E+11,RDOM,0.16,Intellectual Property,7,7,12,GDS,Expensing
+Other nonprofit institutions,36718605375,RD92,0.16,Intellectual Property,3,3,3,GDS,SL
+Other railroad,1.36E+11,SU11,0.0176,Structures,20,20,30,GDS,DB 150%
+Other transportation,3546598618,SB45,0.0237,Structures,39,39,40,GDS,SL
+"Other trucks, buses and truck trailers",1.20E+11,ET12,0.1725,Equipment,5,5,6,GDS,DB 200%
+Own account software,1.99E+11,ENS3,0.33,Intellectual Property,3,3,3,GDS,Expensing
+PCs,53550810953,EP1B,0.4633,Equipment,5,5,5,GDS,DB 200%
+Petroleum and natural gas,1.03E+12,SM01,0.0751,Structures,5,5,14,GDS,DB 200%
+Petroleum pipelines,1.13E+11,SU50,0.0237,Structures,5,5,14,GDS,DB 200%
+Pharmaceutical and medicine manufacturing,3.96E+11,RD11,0.1,Intellectual Property,5,5,9,GDS,Expensing
+Photocopy and related equipment,25020946205,EP31,0.18,Equipment,5,5,5,GDS,DB 200%
+Prepackaged software,72268924053,ENS1,0.55,Equipment,3,3,3,GDS,SL
+Printers,9260043911,EP1D,0.4633,Equipment,5,5,5,GDS,DB 200%
+Private universities and colleges,8714364639,RD91,0.16,Intellectual Property,3,3,3,GDS,SL
+Public safety,15488160357,SO03,0.0237,Structures,39,39,40,GDS,SL
+Railroad equipment,1.09E+11,ET50,0.0589,Equipment,7,7,14,GDS,DB 200%
+Religious,1.01E+11,SB10,0.0188,Structures,39,39,40,GDS,DB 200%
+Residential,3.34E+11,RES,0.01631,Structures,27.5,27.5,30,GDS,SL
+Scientific research and development services,22814623103,RD70,0.16,Intellectual Property,5,5,6,GDS,Expensing
+Semiconductor and other component manufacturing,83580996525,RD23,0.25,Intellectual Property,5,5,5,GDS,Expensing
+Service industry machinery,1.01E+11,EO60,0.1528,Equipment,7,7,9,GDS,DB 200%
+Sewage and waste disposal,37655287430,SO02,0.0225,Structures,20,20,50,GDS,DB 150%
+Ships and boats,62839620240,ET40,0.0611,Equipment,10,10,18,GDS,DB 200%
+Software publishers,20657269549,RD40,0.22,Intellectual Property,3,3,3,GDS,SL
+Special care,70115662531,SB32,0.0188,Structures,39,39,40,GDS,SL
+Special industrial machinery,2.78E+11,EI40,0.1031,Equipment,7,7,4,GDS,DB 200%
+Steam engines,91645013950,EI21,0.0516,Equipment,15,15,28,GDS,DB 150%
+Storage devices,7998988409,EP1G,0.4633,Equipment,5,5,5,GDS,DB 200%
+System integrators,28310184525,EP1H,0.4633,Equipment,5,5,5,GDS,DB 200%
+Tape drives,0,EP1F,0.4633,Equipment,5,5,5,GDS,DB 200%
+Terminals,12396994619,EP1E,0.4633,Equipment,5,5,5,GDS,DB 200%
+Theatrical movies,1.58E+11,AE10,0.093,Intellectual Property,15,15,15,GDS,Economic
+Track replacement,1.66E+11,SU12,0.0249,Structures,7,7,10,GDS,DB 200%
+Warehouses,2.81E+11,SC01,0.0225,Structures,39,39,40,GDS,SL
+Water supply,41285680277,SO01,0.0225,Structures,20,20,50,GDS,DB 150%
+Wind and solar,1.19E+11,SU60,0.0303,Structures,5,5,5,GDS,DB 200%
