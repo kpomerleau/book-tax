@@ -45,7 +45,7 @@ assets<-read.csv("asset_data.csv", header = TRUE, fill = TRUE, sep = ",")
     
   }
   
-  economic_depreciation<- function(discount_rate, start_year, end_year, rate, bonus){
+  economic_depreciation<- function(discount_rate, start_year, end_year, rate, bonus, inflation){
     
     z_c<-bonus * max(min(1-start_year,1),0)
     
@@ -115,14 +115,15 @@ assets<-read.csv("asset_data.csv", header = TRUE, fill = TRUE, sep = ",")
                               discount_rate, 
                               start_year, 
                               end_year,
-                              bonus){
+                              bonus,
+                              inflation){
           
           z<-0
       
           if(dep_method == "Expensing"){z <- 1*max(min(1-start_year,1),0)}
           if(dep_method == "Economic"){
             
-            z<-economic_depreciation(discount_rate, start_year, end_year, econ_depreciation, bonus * (gds_life<=20))
+            z<-economic_depreciation(discount_rate, start_year, end_year, econ_depreciation, bonus * (gds_life<=20), inflation)
             
           }
         
@@ -175,9 +176,10 @@ assets<-read.csv("asset_data.csv", header = TRUE, fill = TRUE, sep = ",")
                                start_year, 
                                end_year, 
                                rate,
-                               bonus){
+                               bonus,
+                               inflation){
     
-    z<-economic_depreciation(discount_rate, start_year, end_year, rate, bonus * (gds_life<=20))
+    z<-economic_depreciation(discount_rate, start_year, end_year, rate, bonus * (gds_life<=20), inflation)
     if(dep_method == "Inventory"){z<-0}
     if(dep_method == "Land"){z<-0}
     
@@ -191,9 +193,10 @@ assets<-read.csv("asset_data.csv", header = TRUE, fill = TRUE, sep = ",")
                                start_year,
                                end_year,
                                rate,
-                               bonus){
+                               bonus,
+                               inflation){
     
-    z<-economic_depreciation(discount_rate, start_year, end_year, rate, bonus * (gds_life<=20))
+    z<-economic_depreciation(discount_rate, start_year, end_year, rate, bonus * (gds_life<=20), inflation)
     if(dep_method == "Expensing"){z <- 1*max(min(1-start_year,1),0)}
     if(dep_method == "Land"){z<-0}
     return(z)
@@ -251,7 +254,8 @@ permanent_tax<-function(corporate_tax_rate,
                          discount_rate = discount_rate, 
                          start_year = 0, 
                          end_year = Inf,
-                         bonus = bonus)
+                         bonus = bonus,
+                         inflation = inflation)
       
     }
     
@@ -263,7 +267,8 @@ permanent_tax<-function(corporate_tax_rate,
                           start_year = 0, 
                           end_year = 999, 
                           rate = asset_data$delta,
-                          bonus = bonus)
+                          bonus = bonus,
+                          inflation = inflation)
 
     }
   
@@ -275,7 +280,8 @@ permanent_tax<-function(corporate_tax_rate,
                           start_year = 0, 
                           end_year = 999, 
                           rate = asset_data$delta,
-                          bonus = bonus)
+                          bonus = bonus,
+                          inflation = inflation)
       
     }
   
@@ -363,7 +369,8 @@ temporary_tax<-function(corporate_tax_rate_one,
                            discount_rate = discount_rate_one, 
                            start_year = 0, 
                            end_year = period_one, 
-                           bonus = bonus_one)
+                           bonus = bonus_one,
+                           inflation = inflation)
         
       }
       
@@ -375,7 +382,8 @@ temporary_tax<-function(corporate_tax_rate_one,
                             start_year = 0, 
                             end_year = period_one, 
                             rate = asset_data$delta,
-                            bonus = bonus_one)
+                            bonus = bonus_one,
+                            inflation = inflation)
         
       }
       
@@ -387,7 +395,8 @@ temporary_tax<-function(corporate_tax_rate_one,
                             start_year = 0, 
                             end_year = period_one, 
                             rate = asset_data$delta,
-                            bonus = bonus_one)
+                            bonus = bonus_one,
+                            inflation = inflation)
         
       }
     
@@ -415,7 +424,8 @@ temporary_tax<-function(corporate_tax_rate_one,
                                discount_rate = discount_rate_two, 
                                start_year = period_one, 
                                end_year = period_two, 
-                               bonus = bonus_two)
+                               bonus = bonus_two,
+                               inflation = inflation)
         
       }
       
@@ -427,7 +437,8 @@ temporary_tax<-function(corporate_tax_rate_one,
                                 start_year = period_one, 
                                 end_year = period_two, 
                                 rate = asset_data$delta,
-                                bonus = bonus_two)
+                                bonus = bonus_two,
+                                inflation = inflation)
         
       }
       
@@ -439,7 +450,8 @@ temporary_tax<-function(corporate_tax_rate_one,
                                 start_year = period_one, 
                                 end_year = period_two, 
                                 rate = asset_data$delta,
-                                bonus = bonus_two)
+                                bonus = bonus_two,
+                                inflation = inflation)
         
       }
   
@@ -467,7 +479,8 @@ temporary_tax<-function(corporate_tax_rate_one,
                                discount_rate = discount_rate_three, 
                                start_year = period_two, 
                                end_year = period_three, 
-                               bonus = bonus_three)
+                               bonus = bonus_three,
+                               inflation = inflation)
         
       }
       
@@ -479,7 +492,8 @@ temporary_tax<-function(corporate_tax_rate_one,
                                 start_year = period_two, 
                                 end_year = period_three, 
                                 rate = asset_data$delta,
-                                bonus = bonus_three)
+                                bonus = bonus_three,
+                                inflation = inflation)
         
       }
       
@@ -491,7 +505,8 @@ temporary_tax<-function(corporate_tax_rate_one,
                                 start_year = period_two, 
                                 end_year = period_three, 
                                 rate = asset_data$delta,
-                                bonus = bonus_three)
+                                bonus = bonus_three,
+                                inflation = inflation)
         
       }
   
@@ -643,7 +658,8 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                            discount_rate = discount_rate_one, 
                            start_year = 0, 
                            end_year = period_one, 
-                           bonus = bonus_one)
+                           bonus = bonus_one,
+                           inflation = inflation)
     
   }
   
@@ -655,7 +671,8 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                             start_year = 0, 
                             end_year = period_one, 
                             rate = asset_data$delta,
-                            bonus = bonus_one)
+                            bonus = bonus_one,
+                            inflation = inflation)
     
   }
   
@@ -667,7 +684,8 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                             start_year = 0, 
                             end_year = period_one, 
                             rate = asset_data$delta,
-                            bonus = bonus_one)
+                            bonus = bonus_one,
+                            inflation = inflation)
     
   }
   
@@ -695,7 +713,8 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                            discount_rate = discount_rate_two, 
                            start_year = period_one, 
                            end_year = period_two, 
-                           bonus = bonus_two)
+                           bonus = bonus_two,
+                           inflation = inflation)
     
   }
   
@@ -707,7 +726,8 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                             start_year = period_one, 
                             end_year = period_two, 
                             rate = asset_data$delta,
-                            bonus = bonus_two)
+                            bonus = bonus_two,
+                            inflation = inflation)
     
   }
   
@@ -719,7 +739,8 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                             start_year = period_one, 
                             end_year = period_two, 
                             rate = asset_data$delta,
-                            bonus = bonus_two)
+                            bonus = bonus_two,
+                            inflation = inflation)
     
   }
     
@@ -747,7 +768,8 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                              discount_rate = discount_rate_three, 
                              start_year = period_two, 
                              end_year = period_three, 
-                             bonus = bonus_three)
+                             bonus = bonus_three,
+                             inflation = inflation)
     
   }
   
@@ -759,7 +781,8 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                               start_year = period_two, 
                               end_year = period_three, 
                               rate = asset_data$delta,
-                              bonus = bonus_three)
+                              bonus = bonus_three,
+                              inflation = inflation)
     
   }
   
@@ -771,7 +794,8 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                               start_year = period_two, 
                               end_year = period_three, 
                               rate = asset_data$delta,
-                              bonus = bonus_three)
+                              bonus = bonus_three,
+                              inflation = inflation)
     
   }
   
@@ -832,21 +856,23 @@ ordinary_to_amt<-function(corporate_tax_rate_one,
                            econ_depreciation = asset_data$delta, 
                            system = asset_data$System, 
                            dep_method = asset_data$Method, 
-                           discount_rate = discount_rate_two, 
+                           discount_rate = .00000001, 
                            start_year = period_one, 
                            end_year = period_two, 
-                           bonus = bonus_one)
+                           bonus = bonus_one,
+                           inflation = 0)
   
     asset_data$v2<-vbook(dep_method = asset_data$Method,
                             gds_life = asset_data$GDS.Life,
-                            discount_rate = discount_rate_two, 
+                            discount_rate = .00000001, 
                             start_year = period_one, 
                             end_year = period_two, 
                             rate = asset_data$delta,
-                            bonus = bonus_two)
+                            bonus = bonus_two,
+                            inflation = 0)
     
     
-    asset_data$V<-(asset_data$v1*corporate_tax_rate_one - asset_data$v2*corporate_tax_rate_two) * exp(-1*discount_rate_one*period_one)
+    asset_data$V<-(asset_data$v1*corporate_tax_rate_one - asset_data$v2*corporate_tax_rate_two) * exp(-1*discount_rate_one*period_one) * exp(-1*discount_rate_two*(period_two-period_one))
   
     #W (credit for taxation of earnings)
     
@@ -958,7 +984,8 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                              discount_rate = discount_rate_one, 
                              start_year = 0, 
                              end_year = period_one, 
-                             bonus = bonus_one)
+                             bonus = bonus_one,
+                             inflation = inflation)
       
     }
     
@@ -970,7 +997,8 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                               start_year = 0, 
                               end_year = period_one, 
                               rate = asset_data$delta,
-                              bonus = bonus_one)
+                              bonus = bonus_one,
+                              inflation = inflation)
       
     }
     
@@ -982,7 +1010,8 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                               start_year = 0, 
                               end_year = period_one, 
                               rate = asset_data$delta,
-                              bonus = bonus_one)
+                              bonus = bonus_one,
+                              inflation = inflation)
       
     }
   
@@ -1010,7 +1039,8 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                              discount_rate = discount_rate_two, 
                              start_year = period_one, 
                              end_year = period_two, 
-                             bonus = bonus_two)
+                             bonus = bonus_two,
+                             inflation = inflation)
       
     }
     
@@ -1022,7 +1052,8 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                               start_year = period_one, 
                               end_year = period_two, 
                               rate = asset_data$delta,
-                              bonus = bonus_two)
+                              bonus = bonus_two,
+                              inflation = inflation)
       
     }
     
@@ -1034,7 +1065,8 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                               start_year = period_one, 
                               end_year = period_two, 
                               rate = asset_data$delta,
-                              bonus = bonus_two)
+                              bonus = bonus_two,
+                              inflation = inflation)
       
     }
   
@@ -1062,7 +1094,8 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                                discount_rate = discount_rate_three, 
                                start_year = period_two, 
                                end_year = period_three, 
-                               bonus = bonus_three)
+                               bonus = bonus_three,
+                               inflation = inflation)
       
     }
     
@@ -1074,7 +1107,8 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                                 start_year = period_two, 
                                 end_year = period_three, 
                                 rate = asset_data$delta,
-                                bonus = bonus_three)
+                                bonus = bonus_three,
+                                inflation = inflation)
       
     }
     
@@ -1086,7 +1120,8 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                                 start_year = period_two, 
                                 end_year = period_three, 
                                 rate = asset_data$delta,
-                                bonus = bonus_three)
+                                bonus = bonus_three,
+                                inflation = inflation)
       
     }
   
@@ -1147,18 +1182,20 @@ amt_to_ordinary<-function(corporate_tax_rate_one,
                         econ_depreciation = asset_data$delta, 
                         system = asset_data$System, 
                         dep_method = asset_data$Method, 
-                        discount_rate = discount_rate_one, 
+                        discount_rate = .00000001, 
                         start_year = 0, 
                         end_year = period_one, 
-                        bonus = bonus_two)
+                        bonus = bonus_two,
+                        inflation = 0)
     
     asset_data$v2<-vbook(dep_method = asset_data$Method,
                          gds_life = asset_data$GDS.Life,
-                         discount_rate = discount_rate_one, 
+                         discount_rate = .00000001, 
                          start_year = 0, 
                          end_year = period_one, 
                          rate = asset_data$delta,
-                         bonus = bonus_one)
+                         bonus = bonus_one,
+                         inflation = 0)
   
   
     asset_data$V<-(asset_data$v1*corporate_tax_rate_two - asset_data$v2*corporate_tax_rate_one) * exp(-1*discount_rate_one*period_one)
@@ -1307,4 +1344,4 @@ output(amt_to_ordinary_test)
 #Fixing the discounting of Z
 #Fix inventory service price DONE
 #Fix discount rates DONE
-#Check the math of the V credit and discounting. Doesn't feel right
+#Check the math of the V credit and discounting. Doesn't feel right DONE
