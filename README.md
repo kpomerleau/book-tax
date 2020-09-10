@@ -1,6 +1,6 @@
 Under construction! :)
 
-Methodology for Estimating the Marginal Effective Tax Rate on New Investment Under Biden's Proposed Book Minimum Tax
+**Methodology for Estimating the Marginal Effective Tax Rate on New Investment Under Biden's Proposed Book Minimum Tax**
 
 The following is the methodology for estimating the marginal effective tax rate under Biden's proposal minimum tax on "book" income. The methodology is adapted from "Understanding Investment Incentives Under Parallel Tax Systems: An Application to the Alternative Minimum Tax" by Andrew B. Lyon (1989).
 
