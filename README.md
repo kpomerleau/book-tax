@@ -16,6 +16,16 @@ The standard formula assumes that tax policy is constant over the life of the as
 
 As such, as such the value of deductions and the rate at which earnings are taxed are considered as a firm switches between the ordinary and parellel tax system.
 
-Finally, the a firm that is subject to the parellel tax system generates tax credits for timing differences. These credits offset future ordinary tax liabiliy. There are two components to the credit: the effective of the
+Finally, the a firm that is subject to the parellel tax system generates tax credits for timing differences offset future ordinary tax liabiliy. There are two components of the credits: the difference in the tax a firm pays on earnings under the parellel system and the tax paid on earnings under the ordinary corporate tax.
+
+"V" is equal to the difference between the tax value of deductions under the ordinary tax and the parellel tax system.
+
+<img src="https://render.githubusercontent.com/render/math?math=\large v= \sum_{t=p}^nuz_t - \sum_{t=0}^nmz_t">
+
+and "W" is the difference in the tax a firm pays on earnings under the parellel system and the tax paid on earnings under the ordinary corporate tax.
+
+<img src="https://render.githubusercontent.com/render/math?math=\large w= (m - u)(\sum_{t=p}^\n \pi_t)">
+
+The final cost of capital formula is:
 
 <img src="https://render.githubusercontent.com/render/math?math=\huge c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t-Vp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\pi_tp_t-Wp_t)}{(\sum_{t=0}^\infty \pi_tp_t)}}">
