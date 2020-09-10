@@ -6,7 +6,7 @@ The following is the methodology for estimating the marginal effective tax rate 
 
 The method starts with the standard cost of capital formula from Jogensen (1967). The cost of capital is equal to the gross return needed to cover tax, depreciation, and the return demanded by shareholders.
 
-<img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r %2B\delta)(1-uz-k)}{(1-u)}">
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r %2B\delta)(1-uz-k)}{(1-u)}"></div>
 
 where 'c' is the cost of capital, 'r' is the firm's real discount rate, 'delta' is economic depreciation, 'u' is the statutory tax rate, 'z' is the present discounted value of depreciation deductions, and 'k' is any investment tax credit.
 
@@ -56,3 +56,9 @@ This analysis assumes that the book tax would be structured like an alternative 
 |Share of inventory using LIFO| 50%|
 |Inventory holding period (years)| .33|
 
+***Description of File in Repository***
+
+| File | Description |
+|---|---|
+|asset_data.csv and asset_data.xlsx| A file containing corporate capital stock data. It includes information on the size of the capital stock by asset, its major asset group, its ADS and GDS asset life, and its economic depreciation rate from the BEA.|
+|script.r|An r script that produces the estimates|
