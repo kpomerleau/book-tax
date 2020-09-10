@@ -12,11 +12,11 @@ where 'c' is the cost of capital, 'r' is the firm's real discount rate, 'delta' 
 
 This discount rate "r" is the weighted average rate for equity and debt-financed investment:
 
-<img src="https://render.githubusercontent.com/render/math?math=r=E(1-f)%2bf(i(1-tb)-\pi)">
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=r=E(1-f)%2bf(i(1-tb)-\pi)"></div>
 
 The standard formula assumes that tax policy is constant over the life of the asset. It does not consider the impact of rate or base changes the could occur. In order to account for that, the cost of capital formula is expanded to account for different tax rates and deductions in different periods.
 
-<img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}">
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}"></div>
 
 The expression, <img src="https://render.githubusercontent.com/render/math?math=\sum_{t=0}^nu_tz_tp_t">, is the sum of value of deductions 'z' for an investment for each period times the tax rate 'u' in each period, discounted to present value with discount factor, 'p'.
 
@@ -26,15 +26,15 @@ Finally, the a firm that is subject to the parellel tax system generates tax cre
 
 "V" is equal to the difference between the tax value of deductions under the ordinary tax and the parellel tax system. 'u' is the statutory tax rate for the ordinary corporate tax, 'm' is the tax rate under the parallel tax system, and 'z' is the deduction for that year.
 
-<img src="https://render.githubusercontent.com/render/math?math=v= \sum_{t=p}^nuz_t - \sum_{t=0}^nmz_t">
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=v= \sum_{t=p}^nuz_t - \sum_{t=0}^nmz_t"></div>
 
 and "W" is the difference in the tax a firm pays on earnings under the parellel system and the tax paid on earnings under the ordinary corporate tax. 'u' is the statutory tax rate for the ordinary corporate tax, 'm' is the tax rate under the parallel tax system, and 'Pi' is the earnings in each year.
 
-<img src="https://render.githubusercontent.com/render/math?math=w= (m - u)(\sum_{t=p}^\n \Pi_t)">
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=w= (m - u)(\sum_{t=p}^\n \Pi_t)"></div>
 
 The final cost of capital formula is:
 
-<img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t-Vp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t-Wp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}">
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t-Vp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t-Wp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}"></div>
 
 ***Parameters and assumptions***
 
@@ -56,7 +56,7 @@ This analysis assumes that the book tax would be structured like an alternative 
 |Share of inventory using LIFO| 50%|
 |Inventory holding period (years)| .33|
 
-***Description of File in Repository***
+***Description of Files in Repository***
 
 | File | Description |
 |---|---|
