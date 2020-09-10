@@ -35,3 +35,23 @@ and "W" is the difference in the tax a firm pays on earnings under the parellel 
 The final cost of capital formula is:
 
 <img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t-Vp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t-Wp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}">
+
+***Parameters and assumptions***
+
+For the most part, this analysis uses assumptions that are consistent with "The Tax Burden on Business Investment Under Joe Biden's Tax Proposals" https://www.aei.org/research-products/report/the-tax-burden-on-business-investment-under-joe-bidens-tax-proposals/
+
+This analysis assumes that the book tax would be structured like an alternative minimum tax. Corporations under the book tax would depreciation assets in line with economic depreciation.
+
+| Parameter | Value |
+|---|---|
+|Ordinary corporate tax rate|28%|
+|Book tax rate|15%|
+|Return on equity 'E'| 6.8%|
+|Interest rate 'i'|5.8%|
+|Share investment debt financed|32%|
+|Share of debt deductible (ordinary corporate tax)| 84%|
+|Share of debt deductible (book tax)|100%|
+|R&D tax credit value| 2.17%|
+|Share of inventory using LIFO| 50%|
+|Inventory holding period (years)| .33|
+
