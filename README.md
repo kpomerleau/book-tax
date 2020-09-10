@@ -48,6 +48,7 @@ This analysis assumes that the book tax would be structured like an alternative 
 |Book tax rate|15%|
 |Return on equity 'E'| 6.8%|
 |Interest rate 'i'|5.8%|
+|Inflation rate|2.4%|
 |Share investment debt financed|32%|
 |Share of debt deductible (ordinary corporate tax)| 84%|
 |Share of debt deductible (book tax)|100%|
