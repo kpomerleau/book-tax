@@ -14,7 +14,9 @@ This discount rate "r" is the weighted average rate for equity and debt-financed
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=r=E(1-f)%2bf(i(1-tb)-\pi)"></div>
 
-The standard formula assumes that tax policy is constant over the life of the asset. It does not consider the impact of rate or base changes the could occur. In order to account for that, the cost of capital formula is expanded to account for different tax rates and deductions in different periods.
+'f' is the share of investment financed with debt, E is the real return on equity, 'i' is the nominal interest rate, 'b' is the share of debt deductable against corporate taxable income, and 'pi' is the inflation rate.
+
+The standard cost of capital formula assumes that tax policy is constant over the life of the asset. It does not consider the impact of rate or base changes the could occur. In order to account for that, the cost of capital formula is expanded to account for different tax rates and deductions in different periods.
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}"></div>
 
