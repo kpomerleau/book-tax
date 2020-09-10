@@ -18,19 +18,19 @@ The standard formula assumes that tax policy is constant over the life of the as
 
 <img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}">
 
+The expression, <img src="https://render.githubusercontent.com/render/math?math=\sum_{t=0}^nu_tz_tp_t">, is the sum of value of deductions 'z' for an investment for each period times the tax rate 'u' in each period, discounted to present value with discount factor, 'p'.
 
-
-As such, as such the value of deductions and the rate at which earnings are taxed are considered as a firm switches between the ordinary and parellel tax system.
+The expression, <img src="https://render.githubusercontent.com/render/math?math=1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}">, is the share of earnings 'pi' taxed at the statutory tax rate 'u' in each period, discounted to present value with the discount factor, 'p'.
 
 Finally, the a firm that is subject to the parellel tax system generates tax credits for timing differences offset future ordinary tax liabiliy. There are two components of the credits: the difference in the tax a firm pays on earnings under the parellel system and the tax paid on earnings under the ordinary corporate tax.
 
-"V" is equal to the difference between the tax value of deductions under the ordinary tax and the parellel tax system.
+"V" is equal to the difference between the tax value of deductions under the ordinary tax and the parellel tax system. 'u' is the statutory tax rate for the ordinary corporate tax, 'm' is the tax rate under the parallel tax system, and 'z' is the deduction for that year.
 
-<img src="https://render.githubusercontent.com/render/math?math= v= \sum_{t=p}^nuz_t - \sum_{t=0}^nmz_t">
+<img src="https://render.githubusercontent.com/render/math?math=v= \sum_{t=p}^nuz_t - \sum_{t=0}^nmz_t">
 
-and "W" is the difference in the tax a firm pays on earnings under the parellel system and the tax paid on earnings under the ordinary corporate tax.
+and "W" is the difference in the tax a firm pays on earnings under the parellel system and the tax paid on earnings under the ordinary corporate tax. 'u' is the statutory tax rate for the ordinary corporate tax, 'm' is the tax rate under the parallel tax system, and 'Pi' is the earnings in each year.
 
-<img src="https://render.githubusercontent.com/render/math?math= w= (m - u)(\sum_{t=p}^\n \Pi_t)">
+<img src="https://render.githubusercontent.com/render/math?math=w= (m - u)(\sum_{t=p}^\n \Pi_t)">
 
 The final cost of capital formula is:
 
