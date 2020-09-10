@@ -32,6 +32,8 @@ and "W" is the difference in the tax a firm pays on earnings under the parellel 
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=w= (m - u)(\sum_{t=p}^\n \Pi_t)"></div>
 
+The value of credits "V", "W", and "k" are all discounted with discount factor "p" to reflect the years in which firms receive these credits. This analysis assumes that firms fully recover credits the first year in which they can.
+
 The final cost of capital formula is:
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t-Vp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t-Wp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}"></div>
