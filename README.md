@@ -12,9 +12,9 @@ where 'c' is the cost of capital, 'r' is the firm's real discount rate, 'delta' 
 
 This discount rate "r" is the weighted average rate for equity and debt-financed investment:
 
-<div align="center"><img src="https://render.githubusercontent.com/render/math?math=r=E(1-f)%2bf(i(1-tb)-\pi)"></div>
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=r=E(1-f)%2bf(i(1-ub)-\pi)"></div>
 
-'f' is the share of investment financed with debt, E is the real return on equity, 'i' is the nominal interest rate, 'b' is the share of debt deductable against corporate taxable income, and 'pi' is the inflation rate.
+'f' is the share of investment financed with debt, E is the real return on equity, 'i' is the nominal interest rate, 'u' is the statutory corporate tax rate, 'b' is the share of debt deductable against corporate taxable income, and 'pi' is the inflation rate.
 
 The standard cost of capital formula assumes that tax policy is constant over the life of the asset. It does not consider the impact of rate or base changes the could occur. In order to account for that, the cost of capital formula is expanded to account for different tax rates and deductions in different periods.
 
