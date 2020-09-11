@@ -20,21 +20,21 @@ The standard cost of capital formula assumes that tax policy is constant over th
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}"></div>
 
-The expression, <img src="https://render.githubusercontent.com/render/math?math=\sum_{t=0}^nu_tz_tp_t">, is the sum of value of deductions 'z' for an investment times the tax rate 'u' in each period, <img src="https://render.githubusercontent.com/render/math?math=t">, discounted to present value with discount factor, 'p'.
+The expression, <img src="https://render.githubusercontent.com/render/math?math=\sum_{t=0}^nu_tz_tp_t">, is the sum of value of deductions <img src="https://render.githubusercontent.com/render/math?math=z"> for an investment times the tax rate <img src="https://render.githubusercontent.com/render/math?math=u"> in each period, <img src="https://render.githubusercontent.com/render/math?math=t">, discounted to present value with discount factor, <img src="https://render.githubusercontent.com/render/math?math=p">.
 
-The expression, <img src="https://render.githubusercontent.com/render/math?math=1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}">, is the share of earnings 'pi' taxed at the statutory tax rate 'u' in each period, <img src="https://render.githubusercontent.com/render/math?math=t">, discounted to present value with the discount factor, 'p'.
+The expression, <img src="https://render.githubusercontent.com/render/math?math=1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}">, is the share of earnings <img src="https://render.githubusercontent.com/render/math?math=\Pi"> taxed at the statutory tax rate <img src="https://render.githubusercontent.com/render/math?math=u"> in each period, <img src="https://render.githubusercontent.com/render/math?math=t">, discounted to present value with the discount factor, <img src="https://render.githubusercontent.com/render/math?math=p">.
 
 A firm that is subject to the parellel tax system generates tax credits for timing differences offset future ordinary tax liabiliy. There are two components of the credits: the difference in the tax a firm pays on earnings under the parellel system and the tax paid on earnings under the ordinary corporate tax.
 
-"V" is equal to the difference between the tax value of deductions under the ordinary tax and the parellel tax system. 'u' is the statutory tax rate for the ordinary corporate tax, 'm' is the tax rate under the parallel tax system, and 'z' is the deduction for that year.
+<img src="https://render.githubusercontent.com/render/math?math=V"> is equal to the difference between the tax value of deductions under the ordinary tax and the parellel tax system. <img src="https://render.githubusercontent.com/render/math?math=u"> is the statutory tax rate for the ordinary corporate tax, <img src="https://render.githubusercontent.com/render/math?math=m"> is the tax rate under the parallel tax system, and <img src="https://render.githubusercontent.com/render/math?math=z"> is the deduction for that year.
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=v= \sum_{t=p}^nuz_t - \sum_{t=0}^nmz_t"></div>
 
-and "W" is the difference in the tax a firm pays on earnings under the parellel system and the tax paid on earnings under the ordinary corporate tax. 'u' is the statutory tax rate for the ordinary corporate tax, 'm' is the tax rate under the parallel tax system, and 'Pi' is the earnings in each year.
+and <img src="https://render.githubusercontent.com/render/math?math=W"> is the difference in the tax a firm pays on earnings under the parellel system and the tax paid on earnings under the ordinary corporate tax. <img src="https://render.githubusercontent.com/render/math?math=u"> is the statutory tax rate for the ordinary corporate tax, <img src="https://render.githubusercontent.com/render/math?math=m"> is the tax rate under the parallel tax system, and <img src="https://render.githubusercontent.com/render/math?math=\Pi"> is the earnings in each year.
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=w= (m - u)(\sum_{t=p}^\n \Pi_t)"></div>
 
-The value of credits "V", "W", and "k" are all discounted with discount factor "p" to reflect the years in which firms receive these credits. This analysis assumes that firms fully recover credits the first year in which they can.
+The value of credits <img src="https://render.githubusercontent.com/render/math?math=V">, <img src="https://render.githubusercontent.com/render/math?math=W">, and <img src="https://render.githubusercontent.com/render/math?math=k"> are all discounted with discount factor <img src="https://render.githubusercontent.com/render/math?math=p"> to reflect the years in which firms receive these credits. This analysis assumes that firms fully recover credits the first year in which they can.
 
 The final cost of capital formula is:
 
