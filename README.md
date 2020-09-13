@@ -4,7 +4,7 @@ Under construction! :)
 
 The following is the methodology for estimating the marginal effective tax rate under Biden's proposal minimum tax on "book" income. The methodology is adapted from "Understanding Investment Incentives Under Parallel Tax Systems: An Application to the Alternative Minimum Tax" by Andrew B. Lyon (1989).
 
-The method starts with the standard cost of capital formula from Jogensen (1967). The cost of capital is equal to the gross return needed to cover tax, depreciation, and the return demanded by shareholders.
+The method starts with the standard cost of capital formula from Jogensen (1967). The cost of capital is equal to the gross return required to cover tax, depreciation, and the return demanded by shareholders.
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r %2B\delta)(1-uz-k)}{(1-u)}"></div>
 
@@ -16,15 +16,15 @@ This discount rate <img src="https://render.githubusercontent.com/render/math?ma
 
 <img src="https://render.githubusercontent.com/render/math?math=f"> is the share of investment financed with debt, <img src="https://render.githubusercontent.com/render/math?math=E"> is the real return on equity, <img src="https://render.githubusercontent.com/render/math?math=i"> is the nominal interest rate, <img src="https://render.githubusercontent.com/render/math?math=c">u is the statutory corporate tax rate, <img src="https://render.githubusercontent.com/render/math?math=b"> is the share of debt deductable against corporate taxable income, and <img src="https://render.githubusercontent.com/render/math?math=\pi"> is the inflation rate.
 
-The standard cost of capital formula assumes that tax policy is constant over the life of the asset. It does not consider the impact of rate or base changes the could occur. In order to account for that, the cost of capital formula is expanded to account for different tax rates and deductions in different periods.
+The standard cost of capital formula assumes that tax policy is constant over the life of an asset. It does not consider the impact of rate or base changes the could occur. In order to account for that, the cost of capital formula is expanded to account for different tax rates and deductions in different periods.
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=c=\frac{(r%2B\delta)(1-\sum_{t=0}^nu_tz_tp_t-k_tp_t)}{1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}}"></div>
 
-The expression, <img src="https://render.githubusercontent.com/render/math?math=\sum_{t=0}^nu_tz_tp_t">, is the sum of value of deductions <img src="https://render.githubusercontent.com/render/math?math=z"> for an investment times the tax rate <img src="https://render.githubusercontent.com/render/math?math=u"> in each period, <img src="https://render.githubusercontent.com/render/math?math=t">, discounted to present value with discount factor, <img src="https://render.githubusercontent.com/render/math?math=p">.
+The expression, <img src="https://render.githubusercontent.com/render/math?math=\sum_{t=0}^nu_tz_tp_t">, is the sum of the value of deductions <img src="https://render.githubusercontent.com/render/math?math=z"> for an investment times the tax rate <img src="https://render.githubusercontent.com/render/math?math=u"> in each period, <img src="https://render.githubusercontent.com/render/math?math=t">, discounted to present value with discount factor, <img src="https://render.githubusercontent.com/render/math?math=p">.
 
 The expression, <img src="https://render.githubusercontent.com/render/math?math=1-\frac{(\sum_{t=0}^\infty u_t\Pi_tp_t)}{(\sum_{t=0}^\infty \Pi_tp_t)}">, is the share of earnings <img src="https://render.githubusercontent.com/render/math?math=\Pi"> taxed at the statutory tax rate <img src="https://render.githubusercontent.com/render/math?math=u"> in each period, <img src="https://render.githubusercontent.com/render/math?math=t">, discounted to present value with the discount factor, <img src="https://render.githubusercontent.com/render/math?math=p">.
 
-A firm that is subject to the parellel tax system generates tax credits for timing differences offset future ordinary tax liabiliy. There are two components of the credits: <img src="https://render.githubusercontent.com/render/math?math=V"> and <img src="https://render.githubusercontent.com/render/math?math=W">.
+A firm that is subject to the parellel tax system generates tax credits for timing differences that offset future ordinary tax liabiliy. There are two components of the credits: <img src="https://render.githubusercontent.com/render/math?math=V"> and <img src="https://render.githubusercontent.com/render/math?math=W">.
 
 <img src="https://render.githubusercontent.com/render/math?math=V"> is equal to the difference between the tax value of deductions under the ordinary tax and the parellel tax system. <img src="https://render.githubusercontent.com/render/math?math=u"> is the statutory tax rate for the ordinary corporate tax, <img src="https://render.githubusercontent.com/render/math?math=m"> is the tax rate under the parallel tax system, and <img src="https://render.githubusercontent.com/render/math?math=z"> is the deduction for that year.
 
